@@ -11,7 +11,7 @@ export default function Nv() {
         </svg>
         </div>
         <div className="flex" style={{ marginRight: "10px", marginTop: "3px" }}>
-          <input className="flex w-full" style={{color:'#A0AEc0',backgroundColor:'#0F1535',height: "20px", marginTop: '2px' }} type="text" placeholder="  Type here....." />
+          <input className="flex w-full" style={{color:'#A0AEc0',backgroundColor:'#0F1535',height: "20px", marginTop: '2px', outline: 'none'}} type="text" placeholder="  Type here....." />
         </div>
       </div>
 

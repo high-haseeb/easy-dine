@@ -3,16 +3,16 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faCartShopping, faFile, faHouse, faWrench, faAngleUp } from '@fortawesome/free-solid-svg-icons'
-// import { Color } from 'three'
 
 
-export default function Sidebar() {
+
+export default function SideBar() {
     const a = '>'
     return (
     
-        <div className="flex flex-col  my-[20px] " style={{ width: '220px', height: '70%' }}>
-            <div className='flex w-[200px] h-[400px] justify-center '>
-                <img className="" src="./png/pic_1.png" width={150} height={150} alt='loading' style={{ marginTop: '-31px'}} />
+        <div className="flex flex-col  my-[20px] " style={{ width: '220px', height: '90%' }}>
+            <div className='flex w-full justify-center '>
+                <img className="" src="./png/pic_1.png" alt='loading' style={{ marginTop: '-31px', width: '100px', height: 'auto' }} />
             </div>
 
             <div className="mt-[-15px]">
