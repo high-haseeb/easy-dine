@@ -5,8 +5,10 @@ import Nv from '@/components/Nv';
 import SideBar from '@/components/SideBar';
 import CenterSection from '@/components/CenterSection';
 import { Plus_Jakarta_Sans } from 'next/font/google';
+import { redirect } from 'next/navigation';
 
 export default function App() {
+  redirect('/login')
   return (
     <div className=" w-screen h-screen bg-[#0A0F25] overflow-hidden select-none" style={{ font:'Plus_Jakarta_Sans',color: "#FFFFFF  " }}>
 

@@ -7,14 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: { // <-- Corrected key is 'colors' (plural)
-        backColor: '#0F1535', // <-- Replace with your color value
+      colors: { 
+        backColor: '#0F1535', 
         sideBarcol: '#06031F',
         Bodycol: '#090F2A',
         yellow: '#D4AF37',
         green: '#04B816',
-        btncol: '#0075ff', // <-- Added missing '#'
-        iconcol: '#718096'
+        btncol: '#0075ff',
+        iconcol: '#718096',
+        brAqua: '#0BCDB8'
       },
     },
   },
