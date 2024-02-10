@@ -4,7 +4,6 @@ import React from "react";
 import Nv from '@/components/Nv';
 import SideBar from '@/components/SideBar';
 import CenterSection from '@/components/CenterSection';
-import { Plus_Jakarta_Sans } from 'next/font/google';
 import { redirect } from 'next/navigation';
 
 export default function App() {
